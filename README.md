@@ -4,6 +4,12 @@ Restores the settings the HS55 WIRELESS CORE is missing in Corsair iCUE, and let
 
 The Core and the standard HS55 WIRELESS are the same hardware (headset RDA0045, receiver RDA0046, identical FCC IDs). The Core's iCUE device module simply leaves the settings out. The script edits the installed iCUE device modules so iCUE offers them anyway — every restored feature worked in testing because the Core's firmware already supports it.
 
+## Screenshots
+
+| Core headset paired to a standard receiver | Restored Device Settings | Equalizer + Mic Vol |
+|---|---|---|
+| ![Core on standard receiver](docs/icue-devices.png) | ![Device Settings](docs/icue-settings.png) | ![Equalizer](docs/icue-equalizer.png) |
+
 ## What it restores
 
 - Pairing an HS55 WIRELESS CORE headset to a standard HS55 WIRELESS receiver (USB ID `1B1C:0A8F`) — useful if your headset was sold without its receiver
